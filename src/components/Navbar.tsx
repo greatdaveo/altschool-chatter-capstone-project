@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 //styles
-import "./Navbar.css";
+import "./Navbar.css"
 import { useState } from "react";
 
 //material icons
@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ClearIcon from "@mui/icons-material/Clear";
 
 const Navbar: React.FC = () => {
-  const [toggle, setToggle] = useState<Boolean>(false);
+  const [toggle, setToggle] = useState<boolean>(false);
   return (
     <nav className="navbar">
       <div className="logo">
