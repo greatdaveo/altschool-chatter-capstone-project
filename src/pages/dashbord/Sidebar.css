@@ -1,0 +1,90 @@
+.sidebar {
+  flex: 0.1;
+  padding: 10px 30px;
+  color: #626262;
+  border-right: 1px solid #d0d0d0;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar H1 {
+  color: #543ee0;
+  font-weight: 800;
+  font-size: 32px;
+  /* line-height: 35px; */
+}
+
+/* -----------SIDEBAR OPTIONS=-----------*/
+.sidebar-options .sidebar-options-feed {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.sidebar-options .sidebar-options-feed p {
+  color: #111111;
+  font-weight: 800;
+}
+
+.sidebar-options .sidebar-options-feed .icons-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar-options .sidebar-options-feed .icons-nav .icon {
+  margin-right: 10px;
+}
+
+.sidebar-options .sidebar-options-trending {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.sidebar-options .sidebar-options-trending .header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar-options .sidebar-options-trending .trending-tags-nav {
+  padding: 20px;
+}
+.sidebar-options .sidebar-options-trending .trending-tags-nav p {
+  margin-bottom: 10px;
+}
+
+.sidebar-options .sidebar-options-trending .header .trending-tags {
+  color: #111111;
+  font-weight: 800;
+}
+
+.sidebar-options .sidebar-options-personal {
+  font-weight: 400;
+}
+
+.sidebar-options .sidebar-options-personal .personal {
+  color: #111111;
+  font-weight: 800;
+}
+
+.sidebar-options .sidebar-options-personal .logout {
+  margin-top: 1.5rem;
+  color: #ff1400;
+  font-weight: 800;
+}
+
+.sidebar-options .sidebar-options-personal .personal-nav {
+  padding: 20px;
+}
+
+@media (width <=750px) {
+  .sidebar {
+    display: none;
+  }
+}

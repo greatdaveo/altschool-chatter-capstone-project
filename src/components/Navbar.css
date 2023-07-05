@@ -1,0 +1,141 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 50px;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  min-height: 70px;
+  max-width: 100%;
+}
+
+.navbar .logo h2 {
+  color: #543ee0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.navbar .navigations {
+  width: 60%;
+}
+
+.navbar .navigations ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .navigations ul li {
+  font-weight: 700;
+}
+
+.navbar .navigations ul li a {
+  color: #000000;
+}
+
+.navbar .auth .login-btn {
+  background-color: #ffffff;
+  color: #111111;
+  padding: 0.5rem;
+  width: 100px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid #543ee0;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.navbar .auth .login-btn a {
+  color: #000000;
+}
+
+.navbar .auth .signup-btn {
+  background-color: #543ee0;
+  color: #ffffff;
+  padding: 0.5rem;
+  width: 100px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid #543ee0;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.navbar .auth .signup-btn a {
+  color: #f1f1f1;
+}
+
+.harmburger {
+  display: none;
+}
+
+.tg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 60%;
+}
+
+@media (width <=994px) {
+  .harmburger {
+    display: block;
+  }
+  .tg {
+    display: none;
+  }
+
+  .harmburger .ham {
+    background-color: #ffffff;
+    color: #543ee0;
+    font-size: 50px;
+  }
+
+  .harmburger .clear {
+    background-color: #ffffff;
+    color: #543ee0;
+    font-size: 50px;
+  }
+
+  #navigation-mobile {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    max-width: 100vw;
+    background-color: #543ee0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 500px;
+  }
+  #navigation-mobile .navigations ul {
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .navbar .navigations ul li:hover {
+    color: red;
+  }
+  .navbar .navigations ul li a {
+    color: white;
+  }
+
+  #navigation-mobile .signup-btn {
+    border: 1px solid #ffffff;
+    font-size: 20px;
+  }
+
+  #navigation-mobile .login-btn {
+    border: 1px solid #ffffff;
+    font-size: 20px;
+  }
+}

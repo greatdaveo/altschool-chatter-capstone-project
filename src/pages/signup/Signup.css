@@ -1,0 +1,49 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.signup .signup-left {
+  background-image: url(../../assets/bg.png);
+  flex: 0.5;
+  filter: brightness(0.5);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+.signup .signup-left h1 {
+  font-weight: 900;
+  font-size: 47px;
+}
+
+.signup .signup-left p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.signup .tabs {
+  flex: 0.5;
+}
+
+@media (width <=856px) {
+  .signup {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .signup .signup-left {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  .signup .sign-up {
+    padding: 20px;
+  }
+}
