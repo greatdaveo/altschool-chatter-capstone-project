@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Tabs.css";
+import "../styles/components/Tabs.css";
 import Signup from "./Signup";
 import Login from "./Login";
 
@@ -7,9 +7,9 @@ import Login from "./Login";
 // import Signup from "../pages/signup/Signup";
 
 export default function Tabs() {
-  const [toggle, setToggle] = useState<Number>(1);
+  const [toggle, setToggle] = useState<number>(1);
 
-  const toggleTab = (index: Number) => {
+  const toggleTab = (index: number) => {
     setToggle(index);
   };
   return (

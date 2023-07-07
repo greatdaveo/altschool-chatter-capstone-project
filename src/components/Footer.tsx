@@ -1,35 +1,61 @@
-//styles
-import "./Footer.css";
+import { Link } from "react-router-dom";
+import "../styles/components/Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer">
-      <h1 className="logo">Chatter</h1>
-      <div className="foot-info">
-        <div className="explore">
-          <h1>Explore</h1>
-          <ul>
-            <li>Community</li>
-            <li>Trending blogs</li>
-            <li>Chatter for teams</li>
-          </ul>
-        </div>
-        <div className="explore">
-          <h1>Support</h1>
-          <ul>
-            <li>Support docs</li>
-            <li>Join slack</li>
-            <li>Contacts</li>
-          </ul>
-        </div>
-        <div className="explore">
-          <h1>Official blog</h1>
-          <ul>
-            <li>Official blog</li>
-            <li>Engineering blog</li>
-          </ul>
-        </div>
+
+    <div className="footer-container">
+      <div>
+        <h1>
+          <Link>Chatter</Link>
+        </h1>
       </div>
-    </footer>
+
+      <div>
+        <ul>
+          <li>
+            <p>Explore</p>
+          </li>
+          <li>
+            <Link>Community</Link>
+          </li>
+          <li>
+            <Link>Trending blogs</Link>
+          </li>
+          <li>
+            <Link>Support</Link>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <p>Support</p>
+          </li>
+          <li>
+            <Link>Support docs</Link>
+          </li>
+          <li>
+            <Link>Join Slack</Link>
+          </li>
+          <li>
+            <Link>Contact</Link>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <p>Official blog</p>
+          </li>
+          <li>
+            <Link>Official blog</Link>
+          </li>
+          <li>
+            <Link>Engineering blog</Link>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
-}
+};
+
+

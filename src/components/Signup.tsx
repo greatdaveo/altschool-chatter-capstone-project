@@ -1,5 +1,5 @@
 //styles
-import "./Signup.css";
+import "../styles/pages/Signup.css";
 
 // import use signup hook
 import useSignup from "../hooks/useSignup";

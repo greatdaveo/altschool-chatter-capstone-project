@@ -6,7 +6,7 @@ import AnalyticsIcon from "@mui/icons-material/Analytics";
 //images
 
 //styles
-import "./Goals.css";
+import "../styles/components/Goals.css";
 import Card from "./Card";
 
 export default function Goals() {

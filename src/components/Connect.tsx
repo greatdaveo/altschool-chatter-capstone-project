@@ -1,4 +1,4 @@
-import "./Connect.css";
+import "../styles/components/Connect.css";
 import male1 from "../assets/male1.png";
 import male2 from "../assets/male2.png";
 import female from "../assets/female.png";

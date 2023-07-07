@@ -1,5 +1,5 @@
 //styles
-import "./Info.css";
+import "../styles/components/Info.css";
 //images
 import profile from "../assets/malepic.png";
 

@@ -1,47 +1,23 @@
-.hero {
-  background-image: url(../assets/hero.png);
-  min-height: 700px;
-  object-fit: cover;
-  background-size: cover;
+.hero-container {
+  background-image: linear-gradient(rgb(41, 23, 75), hsla(0, 0%, 0%, 0.5)),
+    url(../../assets//hero.png);
+  height: 100vh;
+  background-repeat: no-repeat;
   background-position: center;
-  /* filter: blur(2px); */
-  filter: brightness(0.75);
-  /* background: rgba(0, 0, 0, 0.55); */
+  background-size: cover;
+  background-position-y: 10%;
+}
+
+.hero {
+  min-height: 600px;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* .hero{
-  
-    min-height: 400px;
-    color: #ffffff;
-   
-   
-    
-   
-} */
-/*
-.hero img{
-   width: 100%;
-   height: auto;
-    object-fit: cover;
-    filter: blur(2px);
-    filter: brightness(0.5);
-    background: rgba(0, 0, 0, 0.55);
-    min-height:400px ;
-    
- } */
-
-/* .hero .hero-content{
-    position: absolute;
-    top: 120px;
-    padding: 150px;
-} */
-
 .hero .hero-content {
   padding: 40px;
-
   font-weight: bold;
 }
 

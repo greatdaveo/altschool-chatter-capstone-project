@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 //styles
-import "./Navbar.css"
+import "../styles/components/Navbar.css";
 import { useState } from "react";
 
 //material icons

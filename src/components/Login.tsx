@@ -3,7 +3,7 @@ import { useState } from "react";
 import useLogin from "../hooks/useLogin";
 
 //styles
-import "./Login.css";
+import "../styles/pages/Login.css";
 // import Tabs from "../../components/Tabs";
 
 interface User {
@@ -13,11 +13,7 @@ interface User {
 
 function Login(): JSX.Element {
   const { error, login } = useLogin();
-  // const navigate = useNavigate();
 
-  // const goBack = () => {
-  //   navigate(-1);
-  // };
   const [user, setUser] = useState<User>({
     email: "",
     password: "",
@@ -29,6 +25,7 @@ function Login(): JSX.Element {
     login(user.email, user.password);
     console.log(user.email, user.password);
   };
+  
   return (
     <div className="login">
       {/* FORM INPUT  */}
