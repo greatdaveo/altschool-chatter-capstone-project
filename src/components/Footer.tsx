@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer-container">
       <div>
         <h1>
-          <Link>Chatter</Link>
+          <Link to="/">Chatter</Link>
         </h1>
       </div>
 
@@ -17,13 +17,13 @@ export default function Footer() {
             <p>Explore</p>
           </li>
           <li>
-            <Link>Community</Link>
+            <Link to="/">Community</Link>
           </li>
           <li>
-            <Link>Trending blogs</Link>
+            <Link to="/">Trending blogs</Link>
           </li>
           <li>
-            <Link>Support</Link>
+            <Link to="/">Support</Link>
           </li>
         </ul>
 
@@ -32,13 +32,13 @@ export default function Footer() {
             <p>Support</p>
           </li>
           <li>
-            <Link>Support docs</Link>
+            <Link to="/">Support docs</Link>
           </li>
           <li>
-            <Link>Join Slack</Link>
+            <Link to="/">Join Slack</Link>
           </li>
           <li>
-            <Link>Contact</Link>
+            <Link to="/">Contact</Link>
           </li>
         </ul>
 
@@ -47,15 +47,15 @@ export default function Footer() {
             <p>Official blog</p>
           </li>
           <li>
-            <Link>Official blog</Link>
+            <Link to="/">Official blog</Link>
           </li>
           <li>
-            <Link>Engineering blog</Link>
+            <Link to="/">Engineering blog</Link>
           </li>
         </ul>
       </div>
     </div>
   );
-};
+}
 
 
